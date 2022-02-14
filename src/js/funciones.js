@@ -16,3 +16,12 @@ export const saludar =(nombre = 'sin nombre')=>{
 //     document.body.append(img);
 
 }
+ export const multi=(a,b,n3)=> { 
+     a=prompt("da el primer numero");
+    b=prompt("da el segundo numero");
+     n3=a*b;
+     console.log("la multiplicacion es: "+n3);
+   
+ }
+
+
